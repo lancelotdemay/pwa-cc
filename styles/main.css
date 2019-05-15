@@ -1,9 +1,8 @@
 * {
   box-sizing: border-box;
 }
-/* Inline your critical styles */
+
 html, body {
-  /* Define app variables */
   --app-bg-color: #fafafa;
   --app-text-color: #313131;
   --app-card-color: #ffffff;
@@ -47,7 +46,6 @@ a {
   display: none;
 }
 [active] { display: block !important; }
-/* Skeleton */
 .skeleton {
   position: relative;
   margin: 1rem;

@@ -25,18 +25,6 @@ async function addTask(nouvelleTache) {
                 return error;
             });
         }else{
-            /*const database = await openDB('app-store', 1, {
-                upgrade(db) {
-                  db.createObjectStore('tache', { keyPath: 'id', autoIncrement: false});
-                }
-              });
-              
-              var tx = database.transaction('tache', 'readwrite');
-              var store = tx.objectStore('tache');
-              console.log(store)
-              store.add(nouvelleTache);
-
-              return 'done';*/
               const tacheElement = new AppToDoList();
       
               tacheElement.initTodo(nouvelleTache.id,
