@@ -1,0 +1,9 @@
+{
+  "name": "To Do List",
+  "short_name": "To Do List",
+  "description": "Generation of a To Do List",
+  "start_url": "/?pwa",
+  "display": "standalone",
+  "theme_color": "#111111",
+  "background_color": "#ffffff"
+}
